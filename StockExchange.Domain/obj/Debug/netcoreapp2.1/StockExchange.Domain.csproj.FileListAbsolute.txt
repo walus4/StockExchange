@@ -1,0 +1,9 @@
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\bin\Debug\netcoreapp2.1\StockExchange.Domain.deps.json
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\bin\Debug\netcoreapp2.1\StockExchange.Domain.dll
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\bin\Debug\netcoreapp2.1\StockExchange.Domain.pdb
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.1\StockExchange.Domain.csprojAssemblyReference.cache
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.1\StockExchange.Domain.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.1\StockExchange.Domain.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.1\StockExchange.Domain.AssemblyInfo.cs
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.1\StockExchange.Domain.dll
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.1\StockExchange.Domain.pdb

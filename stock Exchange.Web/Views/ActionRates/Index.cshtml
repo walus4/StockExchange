@@ -1,0 +1,67 @@
+﻿@model StockRates
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table class="table table-striped">
+    <caption><h2>Stock prices</h2></caption>
+    <thead class="table-hover">
+    <tr>
+        <th scope="col">
+        Name
+        <th scope="col">Code</th>
+        <th scope="col">Unit</th>
+        <th scope="col">Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Items)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Code)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <td>
+                    @Html.ActionLink("Buy", "BuyAction","Transaction",new{ actionCode =item.Code, actionUnit =item.Unit, actionPrice = item.Price},new {@class=" btn btn-primary" , onclick = "return confirm('Are you sure you want to buy?');" })
+                </td>
+            }
+        </tr>
+    }
+  
+    </tbody>
+</table>
+<span><h4>@Html.DisplayNameFor(model => model.PublicationDate):@Html.DisplayFor(model => model.PublicationDate)</h4>
+</span>
+
+
+<div class="modal fade" id="buyModal" tabindex="-1" role="dialog" aria-labelledby="buyModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="buyModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h2>Are you sure you want to buy</h2>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                <button type="button" class="btn btn-primary" id="okbuy">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>

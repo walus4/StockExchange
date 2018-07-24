@@ -1,0 +1,11 @@
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\bin\Debug\netcoreapp2.0\StockExchange.Domain.deps.json
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\bin\Debug\netcoreapp2.0\StockExchange.Domain.dll
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\bin\Debug\netcoreapp2.0\StockExchange.Domain.pdb
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.0\StockExchange.Domain.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.0\StockExchange.Domain.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.0\StockExchange.Domain.AssemblyInfo.cs
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.0\StockExchange.Domain.csproj.CopyComplete
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.0\StockExchange.Domain.dll
+C:\Users\micha\source\repos\StockExchange\StockExchange.Domain\obj\Debug\netcoreapp2.0\StockExchange.Domain.pdb

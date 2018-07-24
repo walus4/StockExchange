@@ -1,0 +1,15 @@
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\bin\Debug\netcoreapp2.0\StockExchange.Web.deps.json
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\bin\Debug\netcoreapp2.0\StockExchange.Web.runtimeconfig.json
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\bin\Debug\netcoreapp2.0\StockExchange.Web.runtimeconfig.dev.json
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\bin\Debug\netcoreapp2.0\StockExchange.Web.dll
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\bin\Debug\netcoreapp2.0\StockExchange.Web.pdb
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\bin\Debug\netcoreapp2.0\StockExchange.Domain.dll
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\bin\Debug\netcoreapp2.0\StockExchange.Domain.pdb
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.0\stock Exchange.Web.csprojAssemblyReference.cache
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.0\stock Exchange.Web.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.0\stock Exchange.Web.AssemblyInfoInputs.cache
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.0\stock Exchange.Web.AssemblyInfo.cs
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.0\stock Exchange.Web.csproj.CopyComplete
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.0\StockExchange.Web.dll
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.0\StockExchange.Web.pdb

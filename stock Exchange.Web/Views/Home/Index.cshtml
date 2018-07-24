@@ -1,0 +1,15 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="row">
+    <div class="col-md-6">
+        @Html.Partial("~/Views/ActionRates/Index.cshtml",Model.StockRates)
+    </div>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div class="col-md-6">
+            @Html.Partial("~/Views/UserWallet/UserWallet.cshtml", Model.UserWallet)
+        </div>
+    }
+</div>
