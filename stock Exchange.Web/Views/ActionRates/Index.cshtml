@@ -1,8 +1,4 @@
-﻿@model StockRates
-
-@{
-    ViewData["Title"] = "Index";
-}
+﻿@model StockExchange.Web.Models.StockRates
 
 <table class="table table-striped">
     <caption><h2>Stock prices</h2></caption>
@@ -42,7 +38,8 @@
   
     </tbody>
 </table>
-<span><h4>@Html.DisplayNameFor(model => model.PublicationDate):@Html.DisplayFor(model => model.PublicationDate)</h4>
+<span>
+    <h4>@Html.DisplayNameFor(model => model.PublicationDate):@Html.DisplayFor(model => model.PublicationDate)</h4>
 </span>
 
 

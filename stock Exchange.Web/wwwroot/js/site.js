@@ -1,65 +1,33 @@
-﻿// Write your JavaScript code.
-//window.setInterval(location.reload(true), 10000);
-$("#buyButton").click(function(e) {
-    e.preventDefault();
-    var invitationID = $("#buyButton").data("code");
+﻿$(document).ready(function() {
+    Stock();
+    setInterval(Stock, 10000);
+
 });
 
-$("#okbuy").click(function (e) {
-    e.preventDefault();
-    var actionCode = $(this).data("code");
-    var actionUnitview = $(this).data("unit");
-    var actionPriceview = $(this).data("price");
-
+function Stock() {
     $.ajax({
-        type: "POST",
-        url: "/Transaction/BuyAction/",
-        //contentType: "application/json; charset=utf-8",
-        data: {
-            actionCode: actionCode
-            , actionUnit:parseInt(actionUnitview)
-            , actionPrice:parseFloat(actionPriceview)
-
+        type: "GET",
+        url: "/ActionRates/Index",
+        success: function (result) {
+            $("#StockResults").html("");
+            $("#StockResults").append(result);
         },
-        success: function (response) {
-            if (response.success) {
-                alert(response.responseText);
-            } else {
-                // DoSomethingElse()
-                alert(response.responseText);
-            }
-        },
-        error: function (response) {
-            alert("error!"); // 
+        error: function(result) {
+            $("#StockResults").append("Brak danych");
         }
     });
-});
-$("#okSell").click(function (e) {
-    e.preventDefault();
-    var actionCode = $("#sellButton").data("code");
-    var actionUnitview = $("#sellButton").data("unit");
-    var actionPriceview = $("#sellButton").data("price");
+}
 
+function UserWallet() {
     $.ajax({
-        type: "POST",
-        url: "/Transaction/SellAction/",
-        //contentType: "application/json; charset=utf-8",
-        data: {
-            actionCode: actionCode
-            , actionUnit:parseInt(actionUnitview)
-            , actionPrice:parseFloat(actionPriceview)
-
+        type: "GET",
+        url: "Url",
+        success: function (result) {
+            $("#WalletResults").html("");
+            $("#WalletResults").append(result);
         },
-        success: function (response) {
-            if (response.success) {
-                alert(response.responseText);
-            } else {
-                // DoSomethingElse()
-                alert(response.responseText);
-            }
-        },
-        error: function (response) {
-            alert("error!"); // 
+        error: function (result) {
+            $("#WalletResults").append("Brak danych");
         }
     });
-}); 
+}

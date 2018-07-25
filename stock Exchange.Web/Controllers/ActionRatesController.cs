@@ -15,10 +15,10 @@ namespace StockExchange.Web.Controllers
         {
             _ratesServices = ratesServices;
         }
-        public IActionResult Index()
+        public async Task<PartialViewResult> Index()
         {
-            var rates = _ratesServices.GetStockRates();
-            return View(rates);
+            var rates = await _ratesServices.GetStockRates();
+            return PartialView(rates);
         }
     }
 }

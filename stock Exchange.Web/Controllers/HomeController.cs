@@ -28,8 +28,7 @@ namespace StockExchange.Web.Controllers
         }
         public async Task< IActionResult> Index()
         {
-           var model= new HomeViewModel();
-            model.StockRates =await _ratesServices.GetStockRates();
+            var model = new HomeViewModel {StockRates = await _ratesServices.GetStockRates()};
             if (User.Identity.IsAuthenticated)
             {
                 model.UserWallet = await _userWalletService.GetUserWallet(_userManager.GetUserId(User));
