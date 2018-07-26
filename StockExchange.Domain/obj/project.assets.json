@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange.Domain\\StockExchange.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange\\StockExchange.Domain\\StockExchange.Domain.csproj",
       "projectName": "StockExchange.Domain",
-      "projectPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange.Domain\\StockExchange.Domain.csproj",
+      "projectPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange\\StockExchange.Domain\\StockExchange.Domain.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange.Domain\\obj\\",
+      "outputPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange\\StockExchange.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

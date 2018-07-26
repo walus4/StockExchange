@@ -14335,11 +14335,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\source\\repos\\StockExchange\\stock Exchange.Web\\stock Exchange.Web.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange\\stock Exchange.Web\\stock Exchange.Web.csproj",
       "projectName": "StockExchange.Web",
-      "projectPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\stock Exchange.Web\\stock Exchange.Web.csproj",
+      "projectPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange\\stock Exchange.Web\\stock Exchange.Web.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\stock Exchange.Web\\obj\\",
+      "outputPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange\\stock Exchange.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14358,8 +14358,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange.Domain\\StockExchange.Domain.csproj": {
-              "projectPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange.Domain\\StockExchange.Domain.csproj"
+            "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange\\StockExchange.Domain\\StockExchange.Domain.csproj": {
+              "projectPath": "C:\\Users\\micha\\source\\repos\\StockExchange\\StockExchange\\StockExchange.Domain\\StockExchange.Domain.csproj"
             }
           }
         }

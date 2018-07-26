@@ -1,0 +1,59 @@
+﻿@model UserWalletViewModel
+
+<table class="table table-striped">
+    <caption> <h2>My wallet</h2></caption>
+    <thead>
+        <tr>
+            <th>
+                Company
+            </th>
+            <th>Amount</th>
+            <th>Value</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (@Model.UserStocksWallet.Any())
+        {
+            foreach (var item in Model.UserStocksWallet)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Value)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Sell", "SellAction","Transaction",new{ actionCode =item.Code, actionUnit =item.Unit, actionPrice = item.Price},new {@class=" btn btn-primary" , onclick = "return confirm('Are you sure you want to sell?');" })
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<span><h4>@Html.DisplayNameFor(model => model.Money): @Html.DisplayFor(model=>model.Money)</h4></span>
+
+
+<div class="modal fade" id="SellModal" tabindex="-1" role="dialog" aria-labelledby="SellModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="buyModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h2>Are you sure you want to sell?</h2>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                <button type="button" class="btn btn-primary" id="okSell">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>

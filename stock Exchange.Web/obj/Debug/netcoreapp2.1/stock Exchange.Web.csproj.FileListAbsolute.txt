@@ -30,7 +30,6 @@ C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreap
 C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
 C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
-C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\Razor\Views\UserWallet\UserWallet.g.cshtml.cs
 C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\stock Exchange.Web.RazorTargetAssemblyInfo.cache
@@ -48,3 +47,4 @@ C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\bin\Debug\netcoreap
 C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\bin\Debug\netcoreapp2.1\StockExchange.Domain.pdb
 C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\StockExchange.Web.Views.pdb
 C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\stock Exchange.Web.csproj.CopyComplete
+C:\Users\micha\source\repos\StockExchange\stock Exchange.Web\obj\Debug\netcoreapp2.1\Razor\Views\UserWallet\GetUserWallet.g.cshtml.cs
